@@ -1,0 +1,1 @@
+$(function(){var e=navigator.userAgent,o=/iphone|ipod|android/i.test(e),e=/iPad|Macintosh/i.test(e)&&"ontouchend"in document,e=o||e?"mouseleave touchend touchmove click":"mouseleave touchend touchmove";$(".js-menu"),$(".l-header");$("a, .js-hover").on("mouseenter touchstart",function(){$(this).addClass("hover")}).on(e,function(){$(this).removeClass("hover")})});
